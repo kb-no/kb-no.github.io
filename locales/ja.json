@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "スキル",
+    "contact": "お問い合わせ",
+    "langSwitch": "EN"
+  },
+  "hero": {
+    "kicker": "Portfolio",
+    "name": "小林 直樹",
+    "title": "フルスタックエンジニア / DX支援",
+    "tagline": "業務効率化・コスト削減でビジネスを前進させます",
+    "cta": "お問い合わせ"
+  },
+  "about": {
+    "heading": "About Me",
+    "badge_ses": "SES対応",
+    "badge_dx": "農業DX支援",
+    "body": "エンジニア歴5年目。Ruby on Rails・TypeScript・React・Vue.js・Dockerを用いたWebアプリケーション開発において、要件定義から保守フェーズまで一貫して対応できます。\n\nバックエンドはRuby on Railsを中心とした設計・実装が得意で、フロントエンドはReact・Vue.jsを使ったUI実装に強みがあります。ウォーターフォール・アジャイル双方の開発手法に対応しています。\n\nエンジニア以前には営業・総務職の経験を持ち、顧客折衝や他部署との連携を得意としています。迅速なレスポンスを常に心がけており、コミュニケーションの面でも安心してご依頼いただけます。\n\n現在はAIエージェントを活用した開発効率化にも積極的に取り組んでいます。農業・地場産業のDX推進においては、業務効率化やコスト削減を軸にした支援が可能です。"
+  },
+  "skills": {
+    "heading": "Skills",
+    "backend": "バックエンド",
+    "frontend": "フロントエンド",
+    "infra": "インフラ / ツール"
+  },
+  "contact": {
+    "heading": "お問い合わせ",
+    "subheading": "SES案件のご相談・DX支援のお問い合わせはこちらからお気軽にどうぞ。",
+    "cta": "メールを送る"
+  },
+  "footer": {
+    "copy": "© 2025 Naoki Kobayashi. All rights reserved."
+  }
+}

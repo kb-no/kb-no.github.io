@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "contact": "Contact",
+    "langSwitch": "JA"
+  },
+  "hero": {
+    "kicker": "Portfolio",
+    "name": "Naoki Kobayashi",
+    "title": "Full-Stack Engineer / DX Consultant",
+    "tagline": "Driving your business forward through efficiency and cost reduction.",
+    "cta": "Get in Touch"
+  },
+  "about": {
+    "heading": "About Me",
+    "badge_ses": "SES Ready",
+    "badge_dx": "Agri-DX Support",
+    "body": "A full-stack engineer with 5 years of experience in web application development using Ruby on Rails, TypeScript, React, Vue.js, and Docker — covering the full lifecycle from requirements definition to maintenance.\n\nI specialize in backend development with Ruby on Rails and frontend UI implementation with React and Vue.js. I am experienced in both waterfall and agile methodologies.\n\nBefore becoming an engineer, I worked in sales and general affairs, giving me a strong foundation in client communication and cross-departmental coordination. I always prioritize fast, clear responses.\n\nI am actively exploring AI-powered development workflows to boost efficiency. For agriculture and local businesses, I provide DX consulting focused on operational efficiency and cost reduction."
+  },
+  "skills": {
+    "heading": "Skills",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "infra": "Infrastructure / Tools"
+  },
+  "contact": {
+    "heading": "Contact",
+    "subheading": "Feel free to reach out for SES project inquiries or DX consulting.",
+    "cta": "Send an Email"
+  },
+  "footer": {
+    "copy": "© 2025 Naoki Kobayashi. All rights reserved."
+  }
+}
