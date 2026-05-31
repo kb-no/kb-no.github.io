@@ -25,7 +25,7 @@ export default function Hero() {
           animate="show"
           custom={0}
         >
-          Portfolio
+          {t.hero.kicker}
         </motion.p>
 
         <motion.h1

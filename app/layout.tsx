@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import LangSync from "@/components/LangSync";
 
 const notoSansJP = Noto_Sans_JP({
   subsets: ["latin"],
@@ -28,7 +29,10 @@ export default function RootLayout({
   return (
     <html lang="ja" className={`${notoSansJP.variable} h-full`}>
       <body className="min-h-full flex flex-col font-sans antialiased">
-        <LanguageProvider>{children}</LanguageProvider>
+        <LanguageProvider>
+          <LangSync />
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );
