@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
-
-const CONTACT_EMAIL = "sample@example.com";
+import { siteConfig } from "@/config/site";
 
 export default function Contact() {
   const { t } = useLanguage();
@@ -32,7 +31,7 @@ export default function Contact() {
         </motion.p>
 
         <motion.a
-          href={`mailto:${CONTACT_EMAIL}`}
+          href={`mailto:${siteConfig.email}`}
           className="inline-block bg-[#2E86AB] text-white px-10 py-4 rounded-full font-medium hover:bg-[#1a6b8a] transition-colors shadow-md text-lg"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -49,7 +48,7 @@ export default function Contact() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.35 }}
         >
-          {CONTACT_EMAIL}
+          {siteConfig.email}
         </motion.p>
       </div>
     </section>

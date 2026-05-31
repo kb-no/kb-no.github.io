@@ -3,6 +3,7 @@ import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import LangSync from "@/components/LangSync";
+import { siteConfig } from "@/config/site";
 
 const notoSansJP = Noto_Sans_JP({
   subsets: ["latin"],
@@ -11,13 +12,13 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "小林 直樹 | Full-Stack Engineer / DX支援",
-  description:
-    "フルスタックエンジニア・DX支援。Ruby on Rails, React, Vue.js, TypeScript, Docker。SES対応・農業DX支援。",
+  title: siteConfig.title,
+  description: siteConfig.description,
   openGraph: {
-    title: "小林 直樹 | Full-Stack Engineer / DX支援",
-    description: "業務効率化・コスト削減でビジネスを前進させます。",
+    title: siteConfig.title,
+    description: siteConfig.ogDescription,
     type: "website",
+    url: siteConfig.url,
   },
 };
 
