@@ -5,5 +5,5 @@ export const siteConfig = {
     "フルスタックエンジニア・DX支援。Ruby on Rails, React, Vue.js, TypeScript, Docker。SES対応・農業DX支援。",
   url: "https://kb-no.github.io",
   ogDescription: "業務効率化・コスト削減でビジネスを前進させます。",
-  email: "sample@example.com",
+  email: "n.kobayashi.dxpartner@gmail.com",
 } as const;
