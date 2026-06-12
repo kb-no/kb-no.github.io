@@ -8,10 +8,10 @@ export default function Contact() {
   const { t } = useLanguage();
 
   return (
-    <section id="contact" className="py-24 px-6 bg-white">
+    <section id="contact" className="py-24 px-6 bg-[#F0FAF4]">
       <div className="max-w-xl mx-auto text-center">
         <motion.h2
-          className="text-3xl font-bold text-[#1A1A2E] mb-4"
+          className="text-3xl font-bold text-[#1A2E1A] mb-4"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -21,7 +21,7 @@ export default function Contact() {
         </motion.h2>
 
         <motion.p
-          className="text-[#1A1A2E]/60 mb-10"
+          className="text-[#1A2E1A]/60 mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -32,7 +32,7 @@ export default function Contact() {
 
         <motion.a
           href={`mailto:${siteConfig.email}`}
-          className="inline-block bg-[#2E86AB] text-white px-10 py-4 rounded-full font-medium hover:bg-[#1a6b8a] transition-colors shadow-md text-lg"
+          className="inline-block bg-[#27AE60] text-white px-10 py-4 rounded-full font-medium hover:bg-[#1E8449] transition-colors shadow-md text-lg"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -42,7 +42,7 @@ export default function Contact() {
         </motion.a>
 
         <motion.p
-          className="mt-6 text-sm text-[#1A1A2E]/40"
+          className="mt-6 text-sm text-[#1A2E1A]/40"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}

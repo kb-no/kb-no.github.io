@@ -1,32 +1,89 @@
 {
   "nav": {
     "about": "About",
-    "skills": "Skills",
+    "services": "Services",
     "contact": "Contact",
     "langSwitch": "JA"
   },
   "hero": {
-    "kicker": "Portfolio",
+    "kicker": "Local Business DX Support",
     "name": "Naoki Kobayashi",
-    "title": "Full-Stack Engineer / DX Consultant",
-    "tagline": "Driving your business forward through efficiency and cost reduction.",
-    "cta": "Get in Touch"
+    "title": "Full-Stack Engineer",
+    "tagline": "Understanding your challenges, solving them with technology. Let's drive your digital transformation together.",
+    "cta": "Free Consultation"
   },
   "about": {
     "heading": "About Me",
-    "badge_ses": "SES Ready",
-    "badge_dx": "Agri-DX Support",
-    "body": "A full-stack engineer with 5 years of experience in web application development using Ruby on Rails, TypeScript, React, Vue.js, and Docker — covering the full lifecycle from requirements definition to maintenance.\n\nI specialize in backend development with Ruby on Rails and frontend UI implementation with React and Vue.js. I am experienced in both waterfall and agile methodologies.\n\nBefore becoming an engineer, I worked in sales and general affairs, giving me a strong foundation in client communication and cross-departmental coordination. I always prioritize fast, clear responses.\n\nI am actively exploring AI-powered development workflows to boost efficiency. For agriculture and local businesses, I provide DX consulting focused on operational efficiency and cost reduction."
+    "badge_local": "Locally Based",
+    "badge_field": "Field-First Approach",
+    "body": "After working in sales at Mynavi Corporation, I transitioned into software engineering — and have spent over 5 years building web applications with a foot in both the business world and the technical one.\n\nI work with clients from the very first question of \"where do we even begin?\", handling everything from customer-facing websites to internal business systems.\n\nWhether it's agriculture, food service, manufacturing, or construction, I'm here as a long-term DX partner for local businesses of all kinds."
+  },
+  "services": {
+    "heading": "Services",
+    "items": [
+      {
+        "title": "Customer-Facing Website",
+        "desc": "We build websites that showcase your business and bring in new customers. Mobile-friendly by default and designed to be found in search — so the right people can find you."
+      },
+      {
+        "title": "Business Digitalization",
+        "desc": "We carefully map your current operations, identify digitalization opportunities, and propose a phased, cost-effective DX approach — starting with tools you already have."
+      },
+      {
+        "title": "AI Agent Integration",
+        "desc": "We introduce AI-powered automation to your workflows — from routine task processing to inquiry handling — significantly reducing the burden on your team."
+      },
+      {
+        "title": "IT Consulting & Tool Selection",
+        "desc": "From choosing the right cloud services and tools to hands-on training and ongoing support. We start from 'I don't know where to begin.'"
+      }
+    ]
+  },
+  "flow": {
+    "heading": "How It Works",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Free Consultation",
+        "desc": "Feel free to reach out first. We'll listen carefully to your current operations and pain points — online or in person, whichever works for you."
+      },
+      {
+        "step": "02",
+        "title": "Current State Analysis",
+        "desc": "We map your workflows together and identify high-priority areas for digitalization. We focus on understanding your business before jumping to tech solutions."
+      },
+      {
+        "step": "03",
+        "title": "Proposal & Estimate",
+        "desc": "We present a solution tailored to your challenges, with a clear breakdown of costs and timeline — realistic plans that fit your budget."
+      },
+      {
+        "step": "04",
+        "title": "Development, Launch & Support",
+        "desc": "We stay with you after launch to ensure the system actually gets used. We walk alongside you until it's fully embedded in your workflow."
+      }
+    ]
+  },
+  "cases": {
+    "heading": "Case Studies",
+    "items": [
+      {
+        "industry": "Local Business",
+        "title": "Business Management System Development",
+        "desc": "We digitized paper and Excel-based record keeping into a web system, enabling staff to input and review daily records — dramatically reducing administrative overhead.",
+        "result": "~60% reduction in record-keeping and aggregation workload"
+      }
+    ]
   },
   "skills": {
-    "heading": "Skills",
+    "heading": "Tech Stack",
     "backend": "Backend",
     "frontend": "Frontend",
     "infra": "Infrastructure / Tools"
   },
   "contact": {
     "heading": "Contact",
-    "subheading": "Feel free to reach out for SES project inquiries or DX consulting.",
+    "subheading": "Feel free to reach out for DX consulting inquiries. Start with a free consultation — no obligation.",
     "cta": "Send an Email"
   },
   "footer": {
