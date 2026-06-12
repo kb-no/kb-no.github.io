@@ -16,10 +16,10 @@ export default function Hero() {
   const { t } = useLanguage();
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#F8F9FA] to-[#e8f4f8] px-6">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#F0FAF4] to-[#C8E6C9] px-6">
       <div className="text-center max-w-2xl">
         <motion.p
-          className="text-sm font-medium tracking-widest text-[#2E86AB] uppercase mb-4"
+          className="text-sm font-semibold tracking-widest text-[#27AE60] uppercase mb-4"
           variants={fadeUp}
           initial="hidden"
           animate="show"
@@ -29,7 +29,7 @@ export default function Hero() {
         </motion.p>
 
         <motion.h1
-          className="text-5xl md:text-6xl font-bold text-[#1A1A2E] mb-4"
+          className="text-5xl md:text-6xl font-bold text-[#1A2E1A] mb-4"
           variants={fadeUp}
           initial="hidden"
           animate="show"
@@ -39,7 +39,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p
-          className="text-xl md:text-2xl text-[#2E86AB] font-medium mb-6"
+          className="text-xl md:text-2xl text-[#27AE60] font-medium mb-6"
           variants={fadeUp}
           initial="hidden"
           animate="show"
@@ -49,7 +49,7 @@ export default function Hero() {
         </motion.p>
 
         <motion.p
-          className="text-[#1A1A2E]/60 text-lg mb-10"
+          className="text-[#1A2E1A]/60 text-lg mb-10"
           variants={fadeUp}
           initial="hidden"
           animate="show"
@@ -60,7 +60,7 @@ export default function Hero() {
 
         <motion.a
           href="#contact"
-          className="inline-block bg-[#2E86AB] text-white px-8 py-3 rounded-full font-medium hover:bg-[#1a6b8a] transition-colors shadow-md"
+          className="inline-block bg-[#27AE60] text-white px-8 py-3 rounded-full font-medium hover:bg-[#1E8449] transition-colors shadow-md"
           variants={fadeUp}
           initial="hidden"
           animate="show"

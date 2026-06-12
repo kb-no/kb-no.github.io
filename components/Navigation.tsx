@@ -25,7 +25,7 @@ export default function Navigation() {
 
   const links = [
     { href: "#about", label: t.nav.about },
-    { href: "#skills", label: t.nav.skills },
+    { href: "#services", label: t.nav.services },
     { href: "#contact", label: t.nav.contact },
   ];
 
@@ -36,7 +36,7 @@ export default function Navigation() {
       }`}
     >
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <span className="font-bold text-[#1A1A2E] text-lg tracking-wide">NK</span>
+        <img src="/icon.png" alt="NK" className="h-9 w-9 rounded-full object-cover" />
 
         {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-8">
@@ -44,7 +44,7 @@ export default function Navigation() {
             <li key={l.href}>
               <a
                 href={l.href}
-                className="text-sm text-[#1A1A2E]/70 hover:text-[#2E86AB] transition-colors"
+                className="text-sm text-[#1A2E1A]/70 hover:text-[#27AE60] transition-colors"
               >
                 {l.label}
               </a>
@@ -53,7 +53,7 @@ export default function Navigation() {
           <li>
             <button
               onClick={toggleLang}
-              className="text-sm font-medium px-3 py-1 rounded-full border border-[#2E86AB] text-[#2E86AB] hover:bg-[#2E86AB] hover:text-white transition-colors"
+              className="text-sm font-medium px-3 py-1 rounded-full border border-[#27AE60] text-[#27AE60] hover:bg-[#27AE60] hover:text-white transition-colors"
             >
               {t.nav.langSwitch}
             </button>
@@ -62,7 +62,7 @@ export default function Navigation() {
 
         {/* Mobile menu button */}
         <button
-          className="md:hidden text-[#1A1A2E]"
+          className="md:hidden text-[#1A2E1A]"
           onClick={() => setMenuOpen((o) => !o)}
           aria-label="Toggle menu"
         >
@@ -79,7 +79,7 @@ export default function Navigation() {
             <a
               key={l.href}
               href={l.href}
-              className="text-[#1A1A2E]/80 hover:text-[#2E86AB]"
+              className="text-[#1A2E1A]/80 hover:text-[#27AE60]"
               onClick={() => setMenuOpen(false)}
             >
               {l.label}
@@ -87,7 +87,7 @@ export default function Navigation() {
           ))}
           <button
             onClick={() => { toggleLang(); setMenuOpen(false); }}
-            className="self-start text-sm font-medium px-3 py-1 rounded-full border border-[#2E86AB] text-[#2E86AB]"
+            className="self-start text-sm font-medium px-3 py-1 rounded-full border border-[#27AE60] text-[#27AE60]"
           >
             {t.nav.langSwitch}
           </button>

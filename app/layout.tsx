@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     description: siteConfig.ogDescription,
     type: "website",
     url: siteConfig.url,
+    images: [{ url: "/icon.png" }],
   },
 };
 
