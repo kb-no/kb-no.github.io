@@ -22,20 +22,20 @@
     "heading": "Services",
     "items": [
       {
-        "title": "Customer-Facing Website",
-        "desc": "We build websites that showcase your business and bring in new customers. Mobile-friendly by default and designed to be found in search — so the right people can find you."
+        "title": "Website for Customer Acquisition",
+        "desc": "We create websites that communicate the appeal of your shop or business. Mobile-friendly as standard, and built to be found in search — supporting you in reaching new customers."
       },
       {
         "title": "Business Digitalization",
-        "desc": "We carefully map your current operations, identify digitalization opportunities, and propose a phased, cost-effective DX approach — starting with tools you already have."
+        "desc": "We carefully listen to your current workflows, identify where digitalization can help, and propose a step-by-step DX plan — starting from existing tools to keep costs down."
       },
       {
-        "title": "AI Agent Integration",
-        "desc": "We introduce AI-powered automation to your workflows — from routine task processing to inquiry handling — significantly reducing the burden on your team."
+        "title": "Cost Reduction",
+        "desc": "We reduce costs through AI-powered automation of routine tasks and inquiry handling — building systems that significantly lighten the load on your team."
       },
       {
-        "title": "IT Consulting & Tool Selection",
-        "desc": "From choosing the right cloud services and tools to hands-on training and ongoing support. We start from 'I don't know where to begin.'"
+        "title": "IT Consulting",
+        "desc": "We handle everything from tool selection and implementation to hands-on training. Feel free to consult us even at the stage of 'I don't know what to choose.'"
       }
     ]
   },
