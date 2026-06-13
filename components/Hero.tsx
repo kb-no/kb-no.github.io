@@ -13,7 +13,7 @@ const fadeUp: Variants = {
 };
 
 export default function Hero() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
 
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#F0FAF4] to-[#C8E6C9] px-6">
@@ -28,15 +28,22 @@ export default function Hero() {
           {t.hero.kicker}
         </motion.p>
 
-        <motion.h1
-          className="text-5xl md:text-6xl font-bold text-[#1A2E1A] mb-4"
+        <motion.div
           variants={fadeUp}
           initial="hidden"
           animate="show"
           custom={1}
+          className="mb-4"
         >
-          {t.hero.name}
-        </motion.h1>
+          {lang === "ja" && (
+            <p className="text-sm tracking-widest text-[#1A2E1A]/40 mb-1 font-sans">
+              Kobayashi Naoki
+            </p>
+          )}
+          <h1 className="text-5xl md:text-6xl font-bold text-[#1A2E1A] font-shippori">
+            {t.hero.name}
+          </h1>
+        </motion.div>
 
         <motion.p
           className="text-xl md:text-2xl text-[#27AE60] font-medium mb-6"
