@@ -2,7 +2,9 @@
 
 @theme inline {
   --font-sans: var(--font-noto-sans-jp), "Noto Sans JP", sans-serif;
+  --font-shippori: var(--font-shippori-mincho), "Yuji Mai", serif;
 }
+
 
 html {
   scroll-behavior: smooth;

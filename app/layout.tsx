@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Noto_Sans_JP } from "next/font/google";
+import { Noto_Sans_JP, Yuji_Mai } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import LangSync from "@/components/LangSync";
@@ -9,6 +9,12 @@ const notoSansJP = Noto_Sans_JP({
   subsets: ["latin"],
   variable: "--font-noto-sans-jp",
   weight: ["400", "500", "700"],
+});
+
+const yujiMai = Yuji_Mai({
+  subsets: ["latin"],
+  variable: "--font-shippori-mincho",
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -29,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja" className={`${notoSansJP.variable} h-full`}>
+    <html lang="ja" className={`${notoSansJP.variable} ${yujiMai.variable} h-full`}>
       <body className="min-h-full flex flex-col font-sans antialiased">
         <LanguageProvider>
           <LangSync />
