@@ -16,13 +16,13 @@
     "heading": "About Me",
     "badge_local": "Locally Based",
     "badge_field": "Field-First Approach",
-    "body": "After working in sales at Mynavi Corporation, I transitioned into software engineering — and have spent over 5 years building web applications with a foot in both the business world and the technical one.\n\nI work with clients from the very first question of \"where do we even begin?\", handling everything from customer-facing websites to internal business systems.\n\nWhether it's agriculture, food service, manufacturing, or construction, I'm here as a long-term DX partner for local businesses of all kinds."
+    "body": "After working in sales at Mynavi Corporation, I transitioned into software engineering — and have spent over 5 years building web applications with a foot in both the business world and the technical one.\n\nI work with clients from the very first question of \"where do we even begin?\", handling everything from website creation to internal business systems.\n\nWhether it's agriculture, food service, manufacturing, or construction, I'm here as a long-term DX partner for local businesses of all kinds."
   },
   "services": {
     "heading": "Services",
     "items": [
       {
-        "title": "Website for Customer Acquisition",
+        "title": "Website Development",
         "desc": "We create websites that communicate the appeal of your shop or business. Mobile-friendly as standard, and built to be found in search — supporting you in reaching new customers."
       },
       {
