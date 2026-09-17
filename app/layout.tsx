@@ -18,6 +18,9 @@ const yujiMai = Yuji_Mai({
 });
 
 export const metadata: Metadata = {
+  // OGP の相対URLはここを基準に絶対URLへ解決される。
+  // 未設定だと http://localhost:3000 が焼き込まれ、SNS共有時にサムネイルが出ない。
+  metadataBase: new URL(siteConfig.url),
   title: siteConfig.title,
   description: siteConfig.description,
   openGraph: {

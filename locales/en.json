@@ -87,6 +87,6 @@
     "cta": "Send an Email"
   },
   "footer": {
-    "copy": "© 2025 Naoki Kobayashi. All rights reserved."
+    "copy": "© {year} Naoki Kobayashi. All rights reserved."
   }
 }
