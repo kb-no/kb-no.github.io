@@ -28,7 +28,8 @@ export const metadata: Metadata = {
     description: siteConfig.ogDescription,
     type: "website",
     url: siteConfig.url,
-    images: [{ url: "/icon.png" }],
+    // og:image は app/opengraph-image.jpg から Next.js が自動生成する
+    // （URL・型・width/height まで出力される）。ここで手書きしない。
   },
 };
 
