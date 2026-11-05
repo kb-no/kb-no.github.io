@@ -22,7 +22,17 @@ jobs:
           node-version: 20
           cache: "npm"
       - run: npm ci
+      - name: Check contact form configuration
+        env:
+          NEXT_PUBLIC_FORMSPREE_FORM_ID: ${{ vars.NEXT_PUBLIC_FORMSPREE_FORM_ID }}
+        run: |
+          if [[ ! "$NEXT_PUBLIC_FORMSPREE_FORM_ID" =~ ^[a-zA-Z0-9]+$ ]]; then
+            echo "Set the verified Formspree form ID in repository variables before deploying."
+            exit 1
+          fi
       - run: npm run build
+        env:
+          NEXT_PUBLIC_FORMSPREE_FORM_ID: ${{ vars.NEXT_PUBLIC_FORMSPREE_FORM_ID }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
