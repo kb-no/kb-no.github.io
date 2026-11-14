@@ -84,7 +84,21 @@
   "contact": {
     "heading": "Contact",
     "subheading": "Feel free to reach out for DX consulting inquiries. Start with a free consultation — no obligation.",
-    "cta": "Send an Email"
+    "cta": "Send inquiry",
+    "name": "Name (required)",
+    "email": "Email address (required)",
+    "message": "Message (required)",
+    "requiredNote": "All fields are required.",
+    "messageHelp": "Up to 5,000 characters. Please do not include passwords or confidential information.",
+    "requiredError": "Please enter more than whitespace.",
+    "unavailable": "The contact form is being prepared. Please try again later.",
+    "sending": "Sending…",
+    "success": "Your inquiry has been received. I will reply to the email address you provided.",
+    "error": "Your inquiry could not be sent. Please check your entries and try again later. Your entries remain on this page.",
+    "limited": "Submissions cannot be accepted right now. Please try again later. Your entries remain on this page.",
+    "uncertain": "The connection was interrupted, so receipt could not be confirmed. Your inquiry may already have arrived. Your entries remain on this page. Sending again may create a duplicate.",
+    "privacy": "Your information is used to respond to your inquiry. By submitting, your name, email address and message are sent to and stored by Formspree, which notifies the site owner.",
+    "privacyLink": "Formspree privacy policy (opens a new tab)"
   },
   "footer": {
     "copy": "© {year} Naoki Kobayashi. All rights reserved."

@@ -7,7 +7,6 @@ import ServiceIllustration from "./ServiceIllustration";
 import StoryIllustration from "./StoryIllustration";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
-import { siteConfig } from "@/config/site";
 
 export type ServiceKind = "website" | "digitalization" | "cost-reduction" | "consultation";
 const services = ["website", "digitalization", "cost-reduction", "consultation"] as const;
@@ -126,7 +125,7 @@ export default function ServiceDetail({ service }: { service: ServiceKind }) {
       {service === "cost-reduction" && <CostStory ja={ja} />}
       {service === "consultation" && <ConsultationStory ja={ja} />}
       <section id="contact" className="bg-[#EDF5EF] px-6 py-16 text-center">
-        <div className="mx-auto max-w-xl"><p className="service-eyebrow">LET’S TALK</p><p className="detail-body mb-8 text-sm">{ja ? "今のお困りごとを聞かせてください。業務やご予算に合う進め方を、一緒に考えます。" : "Tell us about your challenges. We’ll explore an approach that fits your work and budget."}</p><a href={`mailto:${siteConfig.email}?subject=${encodeURIComponent(ja ? `${item.title}のご相談` : `Inquiry: ${item.title}`)}`} className="inline-flex rounded-full bg-[#284E40] px-7 py-4 text-sm font-bold text-white hover:bg-[#31745A] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#284E40]">{ja ? "このサービスについて相談する" : "Ask about this service"} <span aria-hidden="true" className="ml-4">↗</span></a><p className="mt-5 break-all text-xs text-[#53675D]">{siteConfig.email}</p></div>
+        <div className="mx-auto max-w-xl"><p className="service-eyebrow">LET’S TALK</p><p className="detail-body mb-8 text-sm">{ja ? "今のお困りごとを聞かせてください。業務やご予算に合う進め方を、一緒に考えます。" : "Tell us about your challenges. We’ll explore an approach that fits your work and budget."}</p><Link href="/#contact" className="inline-flex rounded-full bg-[#284E40] px-7 py-4 text-sm font-bold text-white hover:bg-[#31745A] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#284E40]">{ja ? "このサービスについて相談する" : "Ask about this service"} <span aria-hidden="true" className="ml-4">↗</span></Link></div>
       </section>
       <nav aria-label={ja ? "その他のサービス" : "Other services"} className="mx-auto max-w-5xl px-6 py-14"><Link href="/#services" className="text-sm font-bold text-[#31745A]">← {ja ? "サービス一覧に戻る" : "Back to services"}</Link><div className="mt-6 grid gap-3 md:grid-cols-3">{services.filter(slug => slug !== service).map(slug => <Link key={slug} href={`/services/${slug}/`} className="flex items-center justify-between gap-3 rounded-xl border border-[#DCE7DF] p-5 text-sm text-[#234E40] transition-colors hover:bg-[#EDF5EF]">{t.services.items[services.indexOf(slug)].title}<span aria-hidden="true">→</span></Link>)}</div></nav>
     </main>
