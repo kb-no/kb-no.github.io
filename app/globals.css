@@ -14,3 +14,91 @@ body {
   color: #1a1a2e;
   background: #ffffff;
 }
+
+.services-section {
+  background: #fafcf9;
+  scroll-margin-top: 5rem;
+}
+
+.service-eyebrow {
+  margin-bottom: 1rem;
+  color: #31745a;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.service-title {
+  margin-bottom: 1rem;
+  color: #1a2e1a;
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.service-description {
+  color: #53675d;
+  font-size: 0.875rem;
+  line-height: 1.9;
+}
+
+.service-card {
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+.service-card:hover {
+  box-shadow: 0 0 0 2px #7ea790, 0 12px 30px #234e401a;
+  transform: translateY(-3px);
+}
+.service-card:focus-visible {
+  outline: 3px solid #b17d32;
+  outline-offset: 5px;
+}
+.service-card-cta {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  margin-top: 1.75rem;
+  color: #31745a;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.service-card-cta span { margin-left: 0.75rem; }
+.detail-heading {
+  color: #1a2e1a;
+  font-size: clamp(1.65rem, 4vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.55;
+  text-wrap: balance;
+}
+.detail-body { color: #53675d; line-height: 1.95; }
+@media (prefers-reduced-motion: reduce) {
+  .service-card { transition: none; }
+  .service-card:hover { transform: none; }
+}
+
+/* Prefer meaningful phrase boundaries; allow very long phrases to fit narrow screens. */
+.text-phrase {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+:lang(ja) {
+  line-break: strict;
+}
+h1, h2, h3, .service-card-cta {
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+.service-card > div,
+.service-card .grid > div,
+main .grid > div {
+  min-width: 0;
+}

@@ -24,9 +24,9 @@ export default function Navigation() {
   }, []);
 
   const links = [
-    { href: "#about", label: t.nav.about },
-    { href: "#services", label: t.nav.services },
-    { href: "#contact", label: t.nav.contact },
+    { href: "/#about", label: t.nav.about },
+    { href: "/#services", label: t.nav.services },
+    { href: "/#contact", label: t.nav.contact },
   ];
 
   return (
